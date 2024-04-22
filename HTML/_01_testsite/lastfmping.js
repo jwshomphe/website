@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             const html = `
                 <div style="text-align: center;">
-                    <img src="${image}" alt="Album Art" style="max-width: 300px;">
+                    <img src="${image}" alt="Album Art" style="max-width: 700px;">
                     <p style="font-size: 1.2em;">Artist: ${artist}</p>
                     <p style="font-size: 1.2em;">Song: ${song}</p>
                 </div>

@@ -4,6 +4,37 @@
     <meta charset="UTF-8">
     <title>jwsho</title>
     <style>
+     /* Some basic styling for the menu bar */
+     .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        /* Style for the individual menu items (buttons) */
+        .menu li {
+            float: left;
+        }
+
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 148.74px;
+            text-decoration: none;
+        }
+
+        /* Change the background color of the active menu item */
+        .menu li a.active {
+            background-color: #4CAF50;
+        }
+
+        /* Change color when hovering over the menu items */
+        .menu li a:hover {
+            background-color: #555;
+        }
         a:link, a:visited {
     background-color: #22511d;
     color: white;
@@ -27,4 +58,10 @@ a:hover, a:active {
 <body>
     <p>This site was created by jack shomphe on 4/12/2024</p>
     <h3 style="text-align: center;">Welcome to my website! Thanks for stopping by.</h3>
+    <ul class="menu">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About me</a></li>
+    </ul>
     <a

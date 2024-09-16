@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "__bit_reference": "cpp",
+        "bitset": "cpp",
+        "unordered_map": "cpp",
+        "chrono": "cpp",
+        "istream": "cpp",
+        "fstream": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
+}
